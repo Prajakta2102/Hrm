@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-28T16:45:46 IST" name="Suite" finished-at="2023-03-28T16:46:13 IST" duration-ms="27592">
+    <groups>
+    </groups>
+    <test started-at="2023-03-28T16:45:46 IST" name="chrome" finished-at="2023-03-28T16:46:13 IST" duration-ms="27592">
+      <class name="test_Classes.LogInTestCases">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String)[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:45:46 IST" name="BeforeTest" finished-at="2023-03-28T16:45:57 IST" duration-ms="11113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:45:57 IST" name="beforeClass" finished-at="2023-03-28T16:45:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:45:57 IST" name="beforeMethod" finished-at="2023-03-28T16:45:58 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionalityWithvalidData()[pri:1, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:45:58 IST" name="VerifyLoginFunctionalityWithvalidData" finished-at="2023-03-28T16:45:59 IST" duration-ms="859" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at test_Classes.LogInTestCases.VerifyLoginFunctionalityWithvalidData(LogInTestCases.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithvalidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:45:59 IST" name="afterMethod" finished-at="2023-03-28T16:46:00 IST" duration-ms="1418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithvalidData status=FAILURE method=LogInTestCases.VerifyLoginFunctionalityWithvalidData()[pri:1, instance:test_Classes.LogInTestCases@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:46:00 IST" name="beforeMethod" finished-at="2023-03-28T16:46:01 IST" duration-ms="1137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionalityWithInvalidData()[pri:2, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:46:01 IST" name="VerifyLoginFunctionalityWithInvalidData" finished-at="2023-03-28T16:46:02 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithInvalidData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:46:02 IST" name="afterMethod" finished-at="2023-03-28T16:46:03 IST" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithInvalidData status=SUCCESS method=LogInTestCases.VerifyLoginFunctionalityWithInvalidData()[pri:2, instance:test_Classes.LogInTestCases@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test_Classes.LogInTestCases@443118b0]" started-at="2023-03-28T16:46:13 IST" name="afterTest" finished-at="2023-03-28T16:46:13 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test_Classes.LogInTestCases -->
+      <class name="test_Classes.Home_Admin_TestCases">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test_Classes.Home_Admin_TestCases@2b71e916]" started-at="2023-03-28T16:46:03 IST" name="beforeClass" finished-at="2023-03-28T16:46:03 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test_Classes.Home_Admin_TestCases@2b71e916]" started-at="2023-03-28T16:46:03 IST" name="beforeMethod" finished-at="2023-03-28T16:46:07 IST" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminTab()[pri:0, instance:test_Classes.Home_Admin_TestCases@2b71e916]" started-at="2023-03-28T16:46:07 IST" name="verifyAdminTab" finished-at="2023-03-28T16:46:12 IST" duration-ms="5013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminTab -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test_Classes.Home_Admin_TestCases@2b71e916]" started-at="2023-03-28T16:46:12 IST" name="afterMethod" finished-at="2023-03-28T16:46:13 IST" duration-ms="1094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAdminTab status=SUCCESS method=Home_Admin_TestCases.verifyAdminTab()[pri:0, instance:test_Classes.Home_Admin_TestCases@2b71e916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test_Classes.Home_Admin_TestCases -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
