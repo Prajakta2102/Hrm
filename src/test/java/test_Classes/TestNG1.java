@@ -29,7 +29,8 @@ public class TestNG1 {
 	 @Test
 	 public void test2()
 	 {
-		 System.out.println("test2"); 
+		 System.out.println("test2");
+		 System.out.println("GITHUB");
 	 }
 	 @Test
 	 public void test3()
